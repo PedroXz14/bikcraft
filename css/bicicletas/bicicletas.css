@@ -42,7 +42,7 @@
   align-items: center;
 }
 
-.bicicletas li + li{
+.bicicletas li + li {
   margin-top: 16px;
 }
 
@@ -96,5 +96,11 @@
 
   .bicicletas a {
     place-self: start;
+  }
+}
+
+@media (max-width: 490px) {
+  .bicicletas-imagem span {
+    font-size: 0.875rem;
   }
 }
