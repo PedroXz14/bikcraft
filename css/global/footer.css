@@ -28,13 +28,17 @@
   margin-top: 16px;
 }
 
-.footer-redes {
-  display: flex;
-  gap: 32px;
+.footer a {
+  transition: color 0.3s;
 }
 
 .footer a:hover {
   color: var(--cor-0);
+}
+
+.footer-redes {
+  display: flex;
+  gap: 32px;
 }
 
 .footer-copy {

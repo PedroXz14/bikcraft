@@ -52,16 +52,13 @@
 
 .js .perguntas dd {
   display: none;
+  padding-top: 16px;
+  padding-left: 20px;
+  max-width: 80ch;
 }
 
 .js .perguntas dd.ativa {
   display: block;
-}
-
-.perguntas dd {
-  padding-top: 16px;
-  padding-left: 20px;
-  max-width: 80ch;
 }
 
 @media (max-width: 800px) {
